@@ -1,14 +1,15 @@
 import './App.css'
-import Properties from './properties'
-const data = [
-  {id: 1,item : 'Eggs', quantity : 12, completed : false},
-  {id: 2,item : 'milk', quantity : 1, completed : true},
-  {id: 3,item : 'Carrots', quantity : 4, completed : true},
-  {id: 4,item : 'Chicken', quantity : 10, completed : false},
+import PropertyList from './PropertyList'
+
+const properties  = [
+  {id: 1, name : 'Eggs', rating : 12, price : false},
+  {id: 2, name : 'milk', rating : 1, completed : true},
+  {id: 3, name : 'Carrots', rating : 4, completed : true},
+  {id: 4, name : 'Chicken', rating : 10, completed : false},
 ]
 
 function App() {
-  
+  <PropertyList />
 }
 
 export default App
