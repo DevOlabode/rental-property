@@ -4,8 +4,9 @@ function PropertyList ({properties}){
     return (
         <ul>
             {properties.map(prop =>(
-                <Properties 
+                <Properties
                 key = {prop.id}
+                name = {prop.name}
                 price = {prop.price}
                 rating = {prop.rating}
                 />
