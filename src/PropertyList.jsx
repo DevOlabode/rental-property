@@ -2,7 +2,7 @@ import Properties from './Properties';
 
 function PropertyList ({properties}){
     return (
-        <ul>
+        <ul className="property-list">
             {properties.map(prop =>(
                 <Properties
                 key = {prop.id}

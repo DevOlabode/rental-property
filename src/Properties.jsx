@@ -1,9 +1,10 @@
 function Properties ({name, rating, price}){
     return (
-        <li>
-            <div>The name is : {name}</div>
-            <div>${price} a night</div>
-            <div>Rating : {rating}</div>
+        <li className="property-item">
+            <div><strong>{name}</strong></div>
+            <div>{price ? 'Available' : 'Not Available'}</div>
+            <div>Price : {price}</div>
+            <div>Rating: {rating}/10</div>
         </li>
     )
 }
