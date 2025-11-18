@@ -1,4 +1,5 @@
 import Properties from './Properties';
+import './Properties.css';
 
 function PropertyList ({properties}){
     return (

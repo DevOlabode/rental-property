@@ -5,32 +5,7 @@
   text-align: center;
 }
 
-.property-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
 
-.property-item {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width: 200px;
-}
-
-.property-item div {
-  margin-bottom: 0.5rem;
-  color: black;
-}
-
-.property-item div:last-child {
-  margin-bottom: 0;
-}
 
 .logo {
   height: 6em;
