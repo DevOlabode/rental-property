@@ -1,4 +1,4 @@
-function Properties ({name, rating, price}){
+function Properties ({name, rating, price, id}){
     return (
         <li className="property-item">
             <div><strong>{name}</strong></div>
